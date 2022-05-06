@@ -1,0 +1,1 @@
+Gloomy, static part
