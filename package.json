@@ -1,0 +1,19 @@
+{
+    "name": "gloomy-set-commands",
+    "version": "1.0.0",
+    "description": "",
+    "type": "module",
+    "exports": "./quand.js",
+    "scripts": {
+        "build": "tsc",
+        "prestart": "tsc",
+        "start": "node ./dist/quand.js"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.31",
+        "typescript": "^4.7.0-beta"
+    },
+    "dependencies": {
+        "node-fetch": "^3.2.4"
+    }
+}
